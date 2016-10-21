@@ -1,0 +1,16 @@
+{
+  "name": "example-admin-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node npm-scripts/build.script.js && webpack --progress --colors --bail --config ./webpack.product.config.js",
+    "dev": "node npm-scripts/build.script.js && webpack --progress --colors --config ./webpack.dev.config.js",
+    "watch": "node npm-scripts/build.script.js && webpack --progress --colors --watch --config ./webpack.dev.config.js",
+    "start": "webpack-dev-server --inline --progress --compress --devtool eval --content-base build/ --config ./webpack.dev.config.js",
+    "profile": "node npm-scripts/build.script.js && webpack --colors --profile --display-modules",
+    "dll": "node npm-scripts/dll.script.js && webpack --progress --colors --config ./webpack-dll.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

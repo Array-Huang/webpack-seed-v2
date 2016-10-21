@@ -1,0 +1,26 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1473142795'); /* IE9*/
+  src: url('iconfont.eot?t=1473142795#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1473142795') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1473142795') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1473142795#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-edit:before { content: "\e600"; }
+.icon-alert:before { content: "\e601"; }
+.icon-password:before { content: "\e602"; }
+.icon-mine:before { content: "\e603"; }
+.icon-logout:before { content: "\e604"; }
+.icon-demo-page:before { content: "\e606"; }
+.icon-arrow-down:before { content: "\e607"; }
+.icon-triangle-down:before { content: "\e605"; }
+.icon-arrow-left:before { content: "\e608"; }

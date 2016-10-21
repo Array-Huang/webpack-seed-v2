@@ -1,0 +1,10 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dll": "node npm-scripts/dll.script.js && webpack --progress --colors --config ./webpack-dll.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

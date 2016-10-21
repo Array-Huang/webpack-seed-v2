@@ -1,0 +1,23 @@
+<div class="navbar-default sidebar" role="navigation"> 
+  <div class="sidebar-nav navbar-collapse"> 
+    <ul class="nav" id="side-menu"> 
+      <li>
+        <a href="javascript:;"><i class="iconfont icon-demo-page"></i> 示例页面<span class="iconfont arrow"></span></a> 
+        <ul class="nav nav-second-level">
+          <li>
+            <a href="<%= constructInsideUrl('index/login') %>" target="_blank">登录页</a>
+          </li>
+          <li>
+            <a href="<%= constructInsideUrl('user/edit-password') %>">修改密码</a>
+          </li>
+          <li>
+            <a href="<%= constructInsideUrl('user/modify-info') %>">修改个人资料</a>
+          </li>
+          <li>
+            <a href="<%= constructInsideUrl('alert/index') %>">消息通知</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div> 
+</div>
