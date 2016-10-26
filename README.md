@@ -23,7 +23,7 @@ $ npm install --global webpack webpack-dev-server
 - 本项目使用包管理工具NPM，因此需要先把本项目所依赖的包下载下来：
 
 ```bash
-$ npm install --no-optional
+$ npm install
 ```
 
 - 进入到示例项目**example-admin-1**目录里（与项目相关的npm scripts都定义在项目内部的`package.json`里了）
