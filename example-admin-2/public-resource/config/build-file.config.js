@@ -1,3 +1,4 @@
+require('!!file-loader?name=index.html!../../index.html');
 const config = require('coreConfigDir/build-file.config');
 module.exports = Object.assign(config, {
   images: {
