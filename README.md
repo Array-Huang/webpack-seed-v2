@@ -47,6 +47,8 @@ $ npm run start
 - 打开浏览器，在地址栏里输入`http://localhost:8080`，Duang！页面就出来了！
 
 ## CLI命令(npm scripts)
+
+### 在具体项目的目录(如`example-admin-1`目录)中执行的CLI命令
 | 命令            | 作用&效果          |
 | --------------- | ------------- |
 | npm run build   | 根据`webpack.config.js`，build出一份生产环境的代码 |
@@ -54,6 +56,11 @@ $ npm run start
 | npm run watch   | 在`npm run dev`的基础上添加`-- watch`，实时监控源文件，建议开发时使用这项 |
 | npm run start   | 开启webpack-dev-server，然后就可以在 http://localhost:8080/ 查看成品了 |
 | npm run profile | 显示编译过程中每一项资源的耗时，用来调优的 |
+
+
+### 在基础设施/架构核心(`core`目录)中执行的CLI命令
+| 命令            | 作用&效果          |
+| --------------- | ------------- |
 | npm run dll     | 生成Dll文件，每次升级第三方库时都需要重新执行一遍 |
 
 ## 更新日志
