@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       test: /\.css$/,
-      include: includeDirs,
+      include: [dirVars.coreDir, dirVars.vendorDir],
       loader: ExtractTextPlugin.extract('css?minimize&-autoprefixer!postcss'),
     },
     {
