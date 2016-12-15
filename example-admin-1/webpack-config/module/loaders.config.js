@@ -24,7 +24,7 @@ module.exports = [
     query: {
       presets: ['es2015-loose'],
       cacheDirectory: true,
-      plugins: ['transform-runtime', 'transform-object-assign'],
+      plugins: ['transform-runtime', 'transform-es3-member-expression-literals', 'transform-es3-property-literals'],
     },
   },
   {
