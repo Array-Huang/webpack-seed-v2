@@ -1,5 +1,7 @@
 # webpack-seed-v2
 
+## 注意了，本项目不再维护，因为作者我还是打算做回一条复制粘贴开新项目的咸鱼了，请前往[本项目的单项目版本 —— webpack-seed](https://github.com/Array-Huang/webpack-seed)，谢谢。
+
 ## 项目介绍
 本项目是一个利用webpack架构的**web app**脚手架，其特点如下：
 - 多个项目可以共用同一套架构/基础设施。
